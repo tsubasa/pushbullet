@@ -1,9 +1,11 @@
 # -*- coding: utf-8 -*-
 
+from __future__ import print_function
+
 import json
 import requests
 
-from errors import PushbulletError
+from .errors import PushbulletError
 
 class Pushbullet(object):
 
